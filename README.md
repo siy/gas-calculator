@@ -21,7 +21,7 @@ needing to query an external Ethereum client.
 
   Accepts a JSON payload describing the Ethereum transaction for which gas is to be estimated:
 
-  ```json
+  ```json lines
   {
     "from": "0x...",          // Sender address in hex string
     "to": "0x...",            // Recipient address in hex string
@@ -32,7 +32,7 @@ needing to query an external Ethereum client.
 
   Returns a JSON response with the gas estimate:
 
-  ```json
+  ```json lines
   {
     "gas_estimate": "0x..."   // Gas estimate as hex string
   }
